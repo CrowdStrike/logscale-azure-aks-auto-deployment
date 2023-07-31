@@ -4,22 +4,11 @@
 ## Overview :
 
 This script  provision a self-hosted LogScale cluster on Azure Cloud using Azure Kubernetes Services (AKS), with Azure object store for event repositories. This script is completely automated using Power Shell.
-This script follows the same pattern as described in the [CrowdStrike/logscale-azure-aks-deployment](https://github.com/CrowdStrike/logscale-azure-aks-deployment) Github repo.
+This script follows the same pattern as described in the [CrowdStrike/logscale-azure-aks-deployment](https://github.com/CrowdStrike/logscale-azure-aks-deployment).
 
 Notes:
 
-- This cluster deployment utilizes an independent Kafka service.
 - This document assumes at least intermediate level knowledge of Azure Cloud.
-
-## Architectural Diagrams:
-
-**Deployment Overview:**
-
-![dep-overview](/docs/asset/dep-overview.png)
-
-**Functional Overview:**
-
-![fun-overview](/docs/asset/fun-overview.png)
 
 ## Prerequisites :
 - Azure Portal account with an active subscription
