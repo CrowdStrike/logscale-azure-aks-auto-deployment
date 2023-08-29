@@ -1,8 +1,10 @@
 # Variables List
+# Important Notice: Please use Resource Group, AKS and Strorage Account Name same as used in "aks-cluster-setup.ps1" file"
 
-$AKS_RG="rg-aks-cluster"                                    # Resource Group Name
-$AKS_NAME="aks-cluster-test"                                # Azure Kubernetes Service Name
-$STORAGE_ACCOUNT_NAME="saakstestimran01"                    # Storage Account Name
+
+$AKS_RG="<Enter Azure Resource Group Name>"                           # Resource Group Name
+$AKS_NAME="<Enter Azure Cluster Name>"                                # Azure Kubernetes Service Name
+$STORAGE_ACCOUNT_NAME="<Enter Azure Storage Account Name>"            # Storage Account Name
 $DELETE_FLAG =$true
 # Check if Storage Account Exists and if Exist then Delete (No wait will run in background)
 

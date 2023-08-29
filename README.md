@@ -29,7 +29,7 @@ Download the "src" folder from the repository
 ### Note:
 
     Please go through the following important points--
-         1. Please change the variable values in the powershell as per targeted environment
+         1. Please change the variable values in the powershell files as per targeted environment (replace "<>" in variables with actual values)
          2. Please prepare a file called "secretkey" and place targeted environment logscale cluster key without any space or any other special character
          3. The Powershell script should be place in the same directory as "secretkey" file
          4. After running the power shell script, following yaml files will be place the current directory:
